@@ -1,0 +1,86 @@
+
+/*main header background and search engine links*/
+
+.content {
+    background-image: url(https://t4.ftcdn.net/jpg/04/43/37/07/240_F_443370711_sqHRnSIQovW6uyQ5ZwDpd4kjCG8Q6swm.jpg);
+    background-position:100%
+
+}
+
+#main_title {
+    font-size:80px;
+    font-family: Garamond;
+    padding-top: 100px;
+    color : white;
+    text-align: center;
+    font-weight: bold;
+}
+
+#sub_title {
+    font-size:30px;
+    font-family: monospace;
+    padding-bottom: 100px;
+    color : deepskyblue;
+    text-align: center;
+    font-weight: normal;
+}
+
+.social_media {
+    text-align: end;
+    padding:20px 10px 10px 10px;
+}
+#google {
+    padding: 10px 10px 10px 10px;
+}
+#youtube {
+    padding: 10px 10px 10px 10px;
+}
+#instagram {
+    padding: 10px 10px 10px 10px;
+}
+
+
+
+#title {
+
+    font-size:70px;
+    font-family: Serif;
+    padding-bottom: 1px;
+    color : brown;
+    text-align: match-parent;
+    font-weight: normal;
+}
+
+#biryani_image {
+
+    padding: 1px;
+    /*align: center;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+.biryani_content {
+
+    font-size:35px;
+    font-family: Serif;
+    padding-bottom: 1px;
+    color : black;
+    text-align: match-parent;
+    font-weight: normal;
+
+}
+
+.span_edits {
+    color: darkgoldenrod;
+
+}
+
+
+.video_alignment {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    preload : "metadata"}

@@ -1,0 +1,23 @@
+.blocks {
+    width: 100%;
+    margin-top: 250px;
+    height: 500px;
+}
+.blocks ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:0;
+    padding: 2px;
+    border: 1px;
+}
+
+.blocks li{
+    /*border: 1px solid gray;*/
+    width : 50px;;
+    height : 50px;
+    margin: 0.5em;
+    padding: 0.5em;
+    background-size: 500px 500px;
+}
