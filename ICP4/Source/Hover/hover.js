@@ -22,3 +22,4 @@ function unDo() {
     $('#image').html("Hover over an image below to display here.");
 
 }
+
