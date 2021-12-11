@@ -1,0 +1,60 @@
+.homeSearchContainer {
+    background: url('../../images/homesearch.jpg');
+    /* object-fit: cover; */
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homeSearchInsideBox {
+    background-color: rgba(255,255,255,0.6);;
+    /* opacity: 0.6; */
+    height: 300px;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.homeSearchInsideBox select {
+    /* margin-left: 50px; */
+    padding: 15px 10px;
+    background:#ffffff;
+    border-radius: 5px;
+    border-color: 1px black;
+    font-size: 12px;
+    text-align: center;
+}
+
+.homeSearchInsideBox option {
+    
+}
+
+.datepickerr {
+    padding: 15px 10px;
+    /* margin-left: 50px; */
+    background: #ffffff;
+    border-radius: 5px;
+    border-color: 1px black;
+    font-size: 12px;
+}
+
+.submitButtonHome {
+    padding: 15px 20px;
+    /* margin-left: 50px; */
+    background: #00adef;
+    border-radius: 5px;
+    border: none;
+    font-size: 12px;
+    /* margin-right: 150px; */
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* .react-datepicker-wrapper {
+    width: 160px;
+    padding: 0;
+} */

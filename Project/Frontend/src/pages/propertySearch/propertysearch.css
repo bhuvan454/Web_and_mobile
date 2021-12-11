@@ -1,0 +1,83 @@
+.searchContainerPropertySearch {
+    background: #ffffff;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.searchContainerPropertySearch select {
+    /* margin-left: 80px; */
+    padding: 15px 10px;
+    background:#ffffff;
+    border-radius: 5px;
+    border-color: 1px black;
+    font-size: 18px;
+    text-align: center;
+}
+
+.datepicker {
+    /* margin-left: 80px; */
+    padding: 15px 10px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.searchContainerPropertySearch option {
+    text-align: center;
+}
+
+.searchedResultsContainer {
+    background: #ffffff;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.searchedResultsImage {
+    background-size: cover;
+    height: 200px;
+    cursor: pointer;
+}
+
+.singleresultContent {
+    margin: 20px 20px;
+    padding: 20px;
+    background: #C0C0C0;
+}
+
+.searchedResultsTitle {
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.searchedResultsPrice {
+    /* color:#ffffff; */
+}
+
+.submitButton {
+    padding: 15px 20px;
+    /* margin-left: 50px; */
+    background: #00adef;
+    border-radius: 5px;
+    border: none;
+    font-size: 12px;
+    /* margin-right: 150px; */
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.areaStatusLabel {
+    height: 40px;
+    width: 80px;
+    background: red;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 7px;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-weight: 700;
+}

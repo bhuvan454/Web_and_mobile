@@ -1,0 +1,26 @@
+.customerDashboardContainer {
+    height: 700px;
+    position: relative;
+}
+
+.containerbox {
+    position: absolute;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 30%;
+    left: 30%;
+    color: #ffffff;
+    padding: 20px 40px;
+}
+
+.containerbox p {
+    font-size: 18px;
+}
+
+.logoutButton {
+    background: red;
+    color: #ffffff;
+}

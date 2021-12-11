@@ -1,0 +1,100 @@
+.propertyContainer {
+    background: #ffffff;
+    height: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.aboutProperty {
+    flex: 7;
+    margin: 30px;
+    padding: 30px;
+}
+
+.aboutProperty p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.contactproperty {
+    flex: 5;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contactproperty h2 {
+    color: #262729;
+}
+
+.contactproperty input {
+    padding: 10px;
+    width: 80%;
+    margin: 10px 30px;
+    /* border: none; */
+    border-radius: 10px;
+    border: 1px solid #a38c8c;
+    background: #fff;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.contactproperty textarea {
+    padding: 10px;
+    width: 80%;
+    margin: 10px 30px;
+    /* border: none; */
+    border-radius: 10px;
+    border: 1px solid #a38c8c;
+    background: #fff;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.contactproperty input:focus {
+    outline: none;
+}
+
+.contactproperty textarea:focus {
+    outline: none;
+}
+
+.contactproperty button {
+    padding: 10px;
+    width: 84%;
+    margin: 10px 30px;
+    border-radius: 10px;
+    border: 1px solid #a38c8c;
+    background: #fff;
+    font-size: 18px;
+    line-height: 1.6;
+    background: #007bff;
+    color: #ffffff;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.aboutProperty h4 {
+    font-size: 24px;
+}
+
+.aboutProperty li {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.amenities {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.amenities ul {
+    margin-right: 80px;
+    padding-right: 60px;
+}
+
+.propertyContainerPropertyImage {
+    /* height: 100px; */
+}

@@ -1,0 +1,164 @@
+.adminDashboardContainer {
+    /* background: black; */
+    height: 780px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+
+.leftContainer {
+    color: #ffffff;
+    flex: 2;
+    border-right: 5px solid gray;
+    height: 780px;
+}
+
+.rightContainer {
+    color: #ffffff;
+    flex: 10
+}
+
+.topHeading {
+    background: black;
+    height: 80px;
+    /* margin: 10px; */
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 22px;
+    font-size: 22px;
+    font-weight: 900;
+    /* border-radius: 10px; */
+    border-bottom: 5px gray solid;
+}
+
+.selection {
+    background: #ffffff;
+    color: black;
+    height: 50px;
+    margin: 20px;
+    text-align: center;
+    padding-top: 12px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.rightContainer {
+    height: 780px;
+}
+
+.AreaCreateFormButton {
+    margin-top: 10%;
+    margin-left: 10%;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.AreaCreateForm {
+    background: #D3D3D3;
+    height: 100px;
+    margin: 10% 15%;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.AreaCreateForm label {
+    margin: 10px;
+    font-size: 18px;
+    color: black;
+    font-weight: 800;
+}
+
+.AreaCreateForm input {
+    padding: 15px 50px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.createFormsubmitButton {
+    padding: 10px 20px;
+    margin: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.createFormcancelButton {
+    padding: 10px 20px;
+    margin: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.AreaViewAll {
+    /* background: #D3D3D3; */
+    height: 400px;
+    margin: 5% 10%;
+    border-radius: 20px;
+}
+
+.AreaEditData {
+    /* background: rgb(218, 206, 198); */
+    background: #D3D3D3;
+    height: 100px;
+    margin: 10% 15%;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.areaEditDatasubmitButton {
+    padding: 10px 20px;
+    margin: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.areaEditDatacancelButton {
+    padding: 10px 20px;
+    margin: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.AreaEditData label {
+    margin: 10px;
+    font-size: 18px;
+    color: black;
+    font-weight: 800;
+}
+
+.AreaEditData input {
+    padding: 15px 50px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.tableContainer {
+    color: white;
+    /* height: 100px; */
+}
+
+.AreaEditButton {
+    background: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.AreaDeleteButton {
+    background: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+}

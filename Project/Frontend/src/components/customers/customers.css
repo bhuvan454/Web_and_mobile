@@ -1,0 +1,12 @@
+.contactFormContainer {
+    display: flex;
+    margin: 10%;
+}
+
+.deleteButton {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}

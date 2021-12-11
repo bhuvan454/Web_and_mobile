@@ -1,0 +1,55 @@
+.FooterContainer {
+    background: #262729;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footerLeft h2 {
+    color: white;
+    font-size: 30px;
+}
+
+.footerLeft p {
+    font-weight: 600;
+    color: #888888;
+    font-size: 20px;
+}
+
+.footerCenter ul {
+    list-style: none;
+}
+
+.footerCenter h4 {
+    font-size: 24px;
+    padding-left: 40px;
+    color: #ffffff;
+}
+
+.footerCenter li {
+    margin-top: 20px;
+    color: #888888;
+    font-weight: 400;
+    font-family: 'MarkPro';
+    font-size: 20px;
+}
+
+.footerRight li {
+    margin-top: 20px;
+    font-family: 'MarkPro';
+    color: #888888;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.footerRight ul {
+    list-style: none;
+}
+
+.footerRight h4 {
+    font-size: 24px;
+    padding-left: 40px;
+    margin-top: 70px;
+    color: #ffffff;
+}

@@ -1,0 +1,110 @@
+.propertiesContainer {
+    /* background: blue; */
+    height: 500px;
+    margin: 5% 10%;
+}
+
+.addPropertyButton {
+    padding: 15px 20px;
+    /* border: none; */
+    border-radius: 10px;
+    margin: 10%;
+}
+
+.propertiesAddPropertyContainer {
+    /* background: blueviolet; */
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.propertiesAddPropertyContainer input {
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    /* border: none; */
+}
+
+.propertiesAddPropertyContainer label {
+    color: black;
+    font-weight: 800;
+}
+
+.propertiesSelectOne {
+    margin-top: 20px;
+    padding: 10px 40px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.propertiesSelectTwo {
+    margin-top: 20px;
+    padding: 10px 60px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.propertiesAddPropertyContainer button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 20px;
+    color: #ffffff;
+    background: black;
+}
+
+.propertiesEditPropertyContainer {
+    /* background: blueviolet; */
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.propertiesEditPropertyContainer button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 20px;
+    color: #ffffff;
+    background: black;
+}
+
+.propertiesEditPropertyContainer label {
+    color: black;
+    font-weight: 800;
+}
+
+.propertiesEditPropertyContainer input {
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    /* border: none; */
+}
+
+.propertiesDeleteButton {
+    background: red;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: white;
+}
+
+.propertiesEditButton {
+    background: blue;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: white;
+}
+
+.propertiesAddPropertyContainer .datepickerr {
+    margin-left: 38%;
+    padding: 10px 30px;
+}
+
+.propertiesEditPropertyContainer .datepickerr {
+    margin-left: 2%;
+    padding: 10px 10px;
+    color: black;
+    font-weight: 900;
+}

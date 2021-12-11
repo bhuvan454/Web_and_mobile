@@ -1,0 +1,39 @@
+.topbarContainer {
+    background-color: #f8f9fa;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topbarLeft {
+    /* flex: 4; */
+}
+
+.topbarLeft h2 {
+    font-size: 25px;
+    margin-left: 20px;
+    padding-left: 50px;
+    cursor: pointer;
+}
+
+.topbarRight {
+    /* flex: 8; */
+}
+
+.topbarRight ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin: 30px;
+    font-weight: 500;
+    font-family: 'MarkOT-Medium';
+    font-size: 15px;
+}
+
+.topbarRight li {
+    margin-right: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+}
